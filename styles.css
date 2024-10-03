@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F3F2F1;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.toggle-button {
+    padding: 10px 20px;
+    font-size: 85px;
+    border: none;
+    background-color: #355773;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.toggle-button.transparent {
+    opacity: 0.5;
+}
